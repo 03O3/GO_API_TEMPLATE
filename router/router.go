@@ -9,4 +9,5 @@ import (
 func SetRouters(e *echo.Echo) {
 
 	e.GET("/", controller.Users)
+
 }
